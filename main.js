@@ -29,13 +29,13 @@ function checkAudioLoaded() {
   }
 }
 
-// aud = new Howl({
-//   src: "./flamingo.m4a",
-// });
+aud = new Howl({
+  src: "./flamingo.m4a",
+});
 
-// aud2 = new Howl({
-//   src: "./dog.m4a",
-// });
+aud2 = new Howl({
+  src: "./dog.m4a",
+});
 
 marker.addEventListener("markerFound", () => {
   console.log("Marker found");
